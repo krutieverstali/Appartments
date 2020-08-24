@@ -33,10 +33,9 @@
 ##### 2. W3C validator by file - https://validator.w3.org/#validate_by_upload
 
 ##### 3. SVG icons:
-        1. https://fontawesome.ru/
-        2. https://linearicons.com/
+1. https://fontawesome.ru/
+2. https://linearicons.com/
         
-
 ---
 
 ###Adaptive's breakpoints
