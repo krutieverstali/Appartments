@@ -1,5 +1,64 @@
 # Appartments
 
+### Project's scheme
+
+---
+
+####
+    - app
+    
+    *** general files ***
+    -- assets
+    --- fonts
+    ---- fontName
+    ----- someFont.ttf
+    --- css
+    ---- styles.css
+    
+    *** repeatable components ***
+    -- components
+    --- assets
+    ---- component-name
+    ----- img
+    ----- css
+    ------ styles.css
+    ----- js
+    ------ app.js
+    --- component-name
+    ---- index.html
+    
+    ***  working directory for each one ***
+    -- username (valeriya, mikael or andsmi)
+    --- component-name (ex. footer or header)
+    ---- assets (if it needs)
+    ----- img
+    ------ logo.png
+    ----- css
+    ------ components (if it needs)
+    ------- component.css
+    ------ styles.css
+    ----- js
+    ------ modules (if it needs)
+    ------- toggleMenu.js
+    ------ app.js
+    ---- index.html
+    
+    - public
+    
+    *** our production version ***
+    
+    -- css
+    --- styles.css
+    -- js
+    --- app.js
+    -- img
+    --- logo.png
+    -- fonts
+    --- fontName
+    ---- fontName.ttf
+    -- index.html
+
+
 ### Technologies
 
 ---
