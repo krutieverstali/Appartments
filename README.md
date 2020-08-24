@@ -38,7 +38,7 @@
         
 ---
 
-###Adaptive's breakpoints
+### Adaptive's breakpoints
 
 ---
 
