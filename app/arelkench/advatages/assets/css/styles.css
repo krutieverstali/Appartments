@@ -1,0 +1,178 @@
+.title {
+    margin-top: 82px;
+    text-align: center;
+    font-family: "Open Sans - Extrabold", "Arial" ,"Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #444;
+    margin-bottom: 180px;
+}
+.advantages-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.advantages-list .advantages-list__item {
+    display: flex;
+    margin-bottom: 240px;
+}
+.offer {
+    padding-right: 10%;
+    padding-left: 30px;
+
+}
+.color {
+    color: #e5b16c;
+    font-weight: 800;
+}
+.offer__title {
+    font-family: "Open Sans ", "Arial" ,"Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #444;
+}
+.offer__list {
+    display: block;
+}
+.offer__list .list-item {
+    font-family: "Open Sans ", "Arial" ,"Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 47px;
+    padding-left: 30px;
+}
+.offer__list .list-item::before {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -30px;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: solid #e8c498;
+    background-color: #ffffff;
+    font-weight: 900;
+    display: inline-flex;
+}
+.button {
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 344px;
+    height: 59px;
+    background-color: #e6b87c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: "Open Sans - Extrabold", sans-serif, Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: -0.75px;
+}
+.button:hover {
+    box-shadow: 0 0 21px rgba(230, 184, 124, 0.75), 0 0 38px rgba(230, 184, 124, 0.33);
+}
+.img-wrapper {
+    margin: 25px 130px 0 10px;
+}
+.img {
+    box-shadow: 0 0 40px 10px  #ccc;
+}
+.line {
+    margin-left: 100px;
+    transform: rotate(55deg);
+    margin-top: -90px;
+    position: absolute;
+    width: 9px;
+    height: 59px;
+    background-color: #e6b87c;
+
+}
+.number {
+    user-select: none;
+    position: absolute;
+    padding-left: 100px;
+    font-family: "Open Sans - Extrabold", Arial, Roboto,sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 2px;
+    color: #444;
+}
+.img-absolute {
+    position: absolute;
+    margin-left: 500px;
+}
+
+.offer-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 100px;
+    background-image: url("../img/photo-rechtangle.jpg");
+    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.advantages-list__item-third {
+    margin-right: 40%;
+    padding-bottom: 100px;
+}
+@media screen and (max-width: 900px){
+    .img-wrapper{
+        display: none;
+    }
+    .img-absolute {
+        display: none;
+    }
+    .advantages-list__item-third {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .advantages-list__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer-bg {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    .offer__title {
+        text-align: center;
+    }
+    .offer {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 440px) {
+    .offer {
+        padding: 0;
+    }
+    .offer__list {
+        padding-left: 20px;
+    }
+    .button {
+        width: 95%;
+    }
+    .offer-bg {
+        padding: 0;
+    }
+}
